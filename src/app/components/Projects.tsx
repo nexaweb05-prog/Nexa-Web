@@ -30,7 +30,7 @@ const projects: Project[] = [
       badge: "rgba(201,169,110,0.15)",
       badgeText: "#c9a96e",
     },
-    href: "#",
+    href: "C:\\Users\\Elias\\Documents\\GitHub\\Nexa-Web\\Portafolio\\Lumin Studio",
   },
   {
     id: 2,
