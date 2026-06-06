@@ -30,7 +30,7 @@ const projects: Project[] = [
       badge: "rgba(201,169,110,0.15)",
       badgeText: "#c9a96e",
     },
-    href: "/proyectos/lumin/index.html",
+    href: "/Portafolio/Lumin-Studio/dist/index.html",
   },
   {
     id: 2,
