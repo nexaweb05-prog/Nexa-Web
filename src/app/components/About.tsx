@@ -8,8 +8,8 @@ const values = [
 ];
 
 const stats = [
-  { value: "+20", label: "Proyectos completados" },
-  { value: "+3", label: "Años de experiencia" },
+  { value: "+10", label: "Proyectos completados" },
+  { value: "+1", label: "Años de experiencia" },
   { value: "100%", label: "Clientes satisfechos" },
   { value: "24h", label: "Tiempo de respuesta" },
 ];

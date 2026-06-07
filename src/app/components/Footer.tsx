@@ -9,17 +9,10 @@ const navLinks = [
   { label: "Contacto", href: "#contacto" },
 ];
 
-const services = [
-  "Diseño Web Corporativo",
-  "Diseño Responsive",
-  "Optimización de Rendimiento",
-  "SEO Básico",
-  "Integración con WhatsApp",
-  "Mantenimiento Web",
-];
+
 
 const socials = [
-  { icon: <Instagram size={18} />, href: "#", label: "Instagram" },
+  { icon: <Instagram size={18} />, href: "https://www.instagram.com/snexaweb/", label: "Instagram" },
   { icon: <Twitter size={18} />, href: "#", label: "Twitter" },
   { icon: <Linkedin size={18} />, href: "#", label: "LinkedIn" },
   { icon: <Github size={18} />, href: "#", label: "GitHub" },
@@ -112,19 +105,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Services */}
-          <div>
-            <p className="text-sm font-semibold text-white uppercase tracking-wider mb-5">
-              Servicios
-            </p>
-            <ul className="flex flex-col gap-3">
-              {services.map((service) => (
-                <li key={service}>
-                  <span className="text-sm text-white/60">{service}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          
 
           {/* Contact */}
           <div>
@@ -134,26 +115,26 @@ export function Footer() {
             <ul className="flex flex-col gap-3">
               <li>
                 <a
-                  href="mailto:hola@nexaweb.com"
+                  href="mailto:nexa.web05@gmail.com"
                   className="text-sm text-white/60 hover:text-white transition-colors duration-200"
                 >
-                  hola@nexaweb.com
+                  nexa.web05@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/8493878293"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-white/60 hover:text-white transition-colors duration-200"
                 >
-                  +1 (234) 567-890
+                  +1 (849) 387-8293
                 </a>
               </li>
               <li className="text-sm text-white/60">
-                Lunes – Viernes
+                Todos los dias
                 <br />
-                9:00 – 18:00 (GMT-5)
+                A todas horas
               </li>
             </ul>
           </div>
