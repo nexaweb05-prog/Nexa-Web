@@ -142,7 +142,7 @@ export function Hero() {
                       className="w-2.5 h-2.5 rounded-full animate-pulse"
                       style={{ backgroundColor: "#22c55e" }}
                     />
-                    <p className="text-xs font-semibold text-foreground">+20 proyectos</p>
+                    <p className="text-xs font-semibold text-foreground">+10 proyectos</p>
                   </div>
                   <p className="text-xs text-muted-foreground">entregados con éxito</p>
                 </div>
