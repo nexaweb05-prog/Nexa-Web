@@ -34,9 +34,9 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    name: "Apex Barbershop",
-    category: "Barbería Moderna",
-    description: "Sitio de reservas en línea con identidad visual negro y dorado.",
+    name: "Casa de misericordia",
+    category: "Iglesia y Comunidad cristiana",
+    description: "Sitio web comunitario con diseño cálido, acogedor y espiritual.",
     image: "https://images.unsplash.com/photo-1675599193990-33d71150902b?w=800&h=500&fit=crop&auto=format",
     palette: {
       bg: "#1a1108",
@@ -45,7 +45,7 @@ const projects: Project[] = [
       badge: "rgba(212,160,23,0.15)",
       badgeText: "#d4a017",
     },
-    href: "#",
+    href: "/Portafolio/Casa-de-misericordia/dist/index.html",
   },
   {
     id: 3,
