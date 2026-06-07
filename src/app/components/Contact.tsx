@@ -103,7 +103,7 @@ export function Contact() {
             </div>
           </div>
 
-          //{/* Right: contact form */}
+          {/* Right: contact form */}
           <form
             className="lg:col-span-3 bg-card rounded-3xl border border-black/8 shadow-sm p-8 lg:p-10 flex flex-col gap-5"
             onSubmit={(e) => e.preventDefault()}
@@ -128,7 +128,7 @@ export function Contact() {
                 <input
                   id="empresa"
                   type="text"
-                  placeholder="Tu empresa (opcional)"
+                  placeholder="Tu empresa "
                   className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 transition-all text-sm"
                 />
               </div>
@@ -146,24 +146,7 @@ export function Contact() {
               />
             </div>
 
-            <div className="flex flex-col gap-1.5">
-              <label className="text-sm font-medium text-foreground" htmlFor="servicio">
-                Servicio de interés
-              </label>
-              <select
-                id="servicio"
-                className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground focus:outline-none focus:ring-2 transition-all text-sm appearance-none cursor-pointer"
-              >
-                <option value="">Selecciona un servicio</option>
-                <option>Diseño Web Corporativo</option>
-                <option>Diseño Responsive</option>
-                <option>Optimización de Rendimiento</option>
-                <option>SEO Básico</option>
-                <option>Integración con WhatsApp</option>
-                <option>Mantenimiento Web</option>
-                <option>Proyecto completo</option>
-              </select>
-            </div>
+            
 
             <div className="flex flex-col gap-1.5">
               <label className="text-sm font-medium text-foreground" htmlFor="mensaje">
@@ -188,7 +171,7 @@ export function Contact() {
 
             <p className="text-xs text-center text-muted-foreground">
               También puedes escribirnos directamente por{" "}
-              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--nexa-blue)" }}>
+              <a href="https://wa.me/8493878293" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--nexa-blue)" }}>
                 WhatsApp
               </a>
               . Te respondemos en menos de 24 horas.
