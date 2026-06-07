@@ -103,7 +103,97 @@ export function Contact() {
             </div>
           </div>
 
-          
+          //{/* Right: contact form */}
+          <form
+            className="lg:col-span-3 bg-card rounded-3xl border border-black/8 shadow-sm p-8 lg:p-10 flex flex-col gap-5"
+            onSubmit={(e) => e.preventDefault()}
+          >
+            <div className="grid sm:grid-cols-2 gap-5">
+              <div className="flex flex-col gap-1.5">
+                <label className="text-sm font-medium text-foreground" htmlFor="nombre">
+                  Nombre
+                </label>
+                <input
+                  id="nombre"
+                  type="text"
+                  placeholder="Tu nombre"
+                  className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 transition-all text-sm"
+                  style={{ "--tw-ring-color": "var(--nexa-blue)" } as React.CSSProperties}
+                />
+              </div>
+              <div className="flex flex-col gap-1.5">
+                <label className="text-sm font-medium text-foreground" htmlFor="empresa">
+                  Empresa
+                </label>
+                <input
+                  id="empresa"
+                  type="text"
+                  placeholder="Tu empresa (opcional)"
+                  className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 transition-all text-sm"
+                />
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-1.5">
+              <label className="text-sm font-medium text-foreground" htmlFor="email">
+                Correo electrónico
+              </label>
+              <input
+                id="email"
+                type="email"
+                placeholder="correo@tuempresa.com"
+                className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 transition-all text-sm"
+              />
+            </div>
+
+            <div className="flex flex-col gap-1.5">
+              <label className="text-sm font-medium text-foreground" htmlFor="servicio">
+                Servicio de interés
+              </label>
+              <select
+                id="servicio"
+                className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground focus:outline-none focus:ring-2 transition-all text-sm appearance-none cursor-pointer"
+              >
+                <option value="">Selecciona un servicio</option>
+                <option>Diseño Web Corporativo</option>
+                <option>Diseño Responsive</option>
+                <option>Optimización de Rendimiento</option>
+                <option>SEO Básico</option>
+                <option>Integración con WhatsApp</option>
+                <option>Mantenimiento Web</option>
+                <option>Proyecto completo</option>
+              </select>
+            </div>
+
+            <div className="flex flex-col gap-1.5">
+              <label className="text-sm font-medium text-foreground" htmlFor="mensaje">
+                Mensaje
+              </label>
+              <textarea
+                id="mensaje"
+                rows={4}
+                placeholder="Cuéntanos sobre tu proyecto..."
+                className="w-full px-4 py-3 rounded-xl border border-black/10 bg-muted/40 text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 transition-all text-sm resize-none"
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full text-sm font-semibold text-white transition-all duration-200 hover:opacity-90 hover:shadow-xl hover:-translate-y-0.5 shadow-lg mt-2"
+              style={{ backgroundColor: "var(--nexa-blue)" }}
+            >
+              Enviar mensaje
+              <ArrowRight size={16} />
+            </button>
+
+            <p className="text-xs text-center text-muted-foreground">
+              También puedes escribirnos directamente por{" "}
+              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="underline" style={{ color: "var(--nexa-blue)" }}>
+                WhatsApp
+              </a>
+              . Te respondemos en menos de 24 horas.
+            </p>
+          </form>
         </div>
       </div>
     </section>
