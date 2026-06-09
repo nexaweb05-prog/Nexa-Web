@@ -37,7 +37,7 @@ const projects: Project[] = [
     name: "Casa de misericordia",
     category: "Iglesia y Comunidad cristiana",
     description: "Sitio web comunitario con diseño cálido, acogedor y espiritual.",
-    image: "Nexa-Web/public/images/706054749_1463393365832019_7614156448418283234_n.jpg",
+    image: "images/706054749_1463393365832019_7614156448418283234_n.jpg",
     palette: {
       bg: "#1a1108",
       accent: "#d4a017",
