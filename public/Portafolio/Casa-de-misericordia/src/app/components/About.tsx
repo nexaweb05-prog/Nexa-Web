@@ -52,14 +52,14 @@ export function About() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-[#dbeafe]">
               <img
-                src="https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?w=800&h=1000&fit=crop&auto=format"
+                src="/images/GREGORIA.jpg"
                 alt="Congregación en adoración"
                 className="w-full h-full object-cover"
               />
             </div>
             {/* Floating stat */}
             <div className="absolute -bottom-6 -right-6 bg-[#2563EB] text-white rounded-2xl px-6 py-4 shadow-xl shadow-blue-200">
-              <p className="text-3xl font-bold" style={{ fontFamily: "'Sora', sans-serif" }}>15+</p>
+              <p className="text-3xl font-bold" style={{ fontFamily: "'Sora', sans-serif" }}>8+</p>
               <p className="text-blue-100 text-sm">Años de ministerio</p>
             </div>
           </div>
