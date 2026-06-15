@@ -34,7 +34,7 @@ export function Hero() {
           }}
         >
           Bienvenido a<br />
-          <span className="text-[#60a5fa]">Elias House</span>
+          <span className="text-[#60a5fa]">Elias</span>
         </h1>
         <p className="text-white/75 text-lg mb-10 max-w-xl mx-auto leading-relaxed">
           Un lugar para crecer en la fe, encontrar propósito y vivir en
